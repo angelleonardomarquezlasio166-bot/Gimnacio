@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Gimnasio Los Hermanos - Inicio</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <div class="container">
+           <a class="navbar-brand fw-bold text-warning" href="#">Gimnasio Los Hermanos</a>  
+           <div class="navbar-nav ms-auto">
+               <a class="nav-link active text-white" href="index.html">Inicio</a>
+               <a class="nav-link" href="servicios.html">Servicios</a>
+               <a class="nav-link" href="horarios.html">Horarios</a>
+               <a class="nav-link" href="multimedia.html">Multimedia</a>
+               <a class="btn btn-warning btn-sm text-dark fw-bold ms-3" href="login.html">Unirse Ahora</a>
+           </div>
+       </div>
+   </nav>
+
+   <header class="text-center my-5 py-5 text-white">
+       <h1 class="display-flex fw-bold text-uppercase">Bienvenido gimnasio los hermanos</h1>
+       
+       <p class="lead text-white-50">Transforma tu cuerpo y mejora tu salud con nuestros programas de entrenamiento y asignación automática de tu ID de miembro al instante.</p>
+    <div class="contenedor-imagen">
+  <img src="../assets/image.jpg" alt="Descripción de la imagen" class="mi-imagen">
+   </div>
+    </header>
+  
+  
+  
+
+    <section id="planes" class="container py-5 border-top">
+           <h2 class="h3 fw-bold mb-2 custom-text-title animate__animated animate__fadeInUp text-center text-sm-start">Nuestros Planes Disponibles</h2>
+           <p class="custom-text-main small mb-5 animate__animated animate__fadeInUp text-center text-sm-start">Selecciona el pase que mejor se adapte a tus objetivos fitness. Sin contratos forzosos.</p>
+           
+           <div class="row g-4">
+               <div class="col-12 col-md-6 animate__animated animate__fadeInLeft">
+                   <div class="border p-4 rounded-4 h-100 card-hover-effect bg-white d-flex flex-column justify-content-between shadow-sm">
+                       <div>
+                           <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=400" alt="Plan Básico" class="img-fluid rounded-3 object-card w-100 mb-3">
+                           <div class="d-flex justify-content-between align-items-baseline mb-2">
+                               <h3 class="h4 fw-bold custom-text-title m-0 text-black">Plan Básico</h3>
+                               <span class="fs-3 fw-bold custom-text-link text-black">$299.00<small class="fs-6 custom-text-main fw-normal">/mes</small></span>
+                           </div>
+                           <p class="custom-text-main small mb-4 fw-medium text-muted text-black">Ideal para quienes buscan entrenar a su propio ritmo con equipamiento de primer nivel.</p>
+                           
+                           <h4 class="h6 fw-bold custom-text-title mb-3">¿Qué incluye este plan? (Lista de Servicios)</h4>
+                           <ul class="custom-text-main small ps-3 space-y-2 generic-ul-list text-muted">
+                               <li>Acceso ilimitado a la zona de musculación y peso libre.</li>
+                               <li>Uso libre del área de Cardio (Caminadoras y elípticas).</li>
+                               <li>Uso de vestidores y lockers de seguridad gratuitos.</li>
+                               <li>Rutina inicial de inducción digital preestablecida.</li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+               
+               <div class="col-12  col-white col-md-6 animate__animated animate__fadeInRight">
+                   <div class="custom-card-premium text-white p-4 rounded-4 h-100 card-hover-effect d-flex flex-column justify-content-between shadow-lg border-0">
+                       <div>
+                           <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=400" alt="Plan Premium" class="img-fluid rounded-3 object-card w-100 mb-3">
+                           <div class="d-flex justify-content-between align-items-baseline mb-2">
+                               <h3 class="h4 fw-bold text-white m-0">Plan Premium Club</h3>
+                               <span class="fs-3 fw-bold text-acento-light">$499.00<small class="fs-6 text-white-50 fw-normal">/mes</small></span>
+                           </div>
+                           <p class="text-white-50 small mb-4 fw-medium">La experiencia completa para acelerar tus resultados con asesoría experta y clases premium.</p>
+                           
+                           <h4 class="h6 fw-bold text-acento-light mb-3">Beneficios Prioritarios Incluidos (Lista de Jerarquía):</h4>
+                           <ol class="text-light small ps-3 space-y-2 generic-ol-list opacity-90">
+                               <li>Acceso total prioritario a todas las áreas del gimnasio sin restricciones.</li>
+                               <li>Clases Grupales Ilimitadas (Yoga, Crossfit, Zumba y Spinning).</li>
+                               <li>Asesoría Nutricional mensual personalizada con seguimiento antropométrico.</li>
+                               <li>Rutina avanzada diseñada a tu medida por un Entrenador Personal asignado.</li>
+                               <li>Acceso mensual para un invitado totalmente gratuito.</li>
+                           </ol>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+   <section class="container my-5 py-4">
+       <div class="row g-4">
+           <div class="col-md-5">
+               <div class="card p-4 shadow-lg">
+                   <h3 class="text-warning text-uppercase fw-bold mb-3">Tu Opinión Nos Importa</h3>
+                   <form id="formOpinion">
+                       <div class="mb-3">
+                           <label class="text-white-50 small fw-bold">Tu Nombre</label>
+                           <input type="text" id="opinionAutor" class="form-control" placeholder="Ej. Juan Pérez" required>
+                       </div>
+                       <div class="mb-3">
+                           <label class="text-white-50 small fw-bold">Tu Reseña</label>
+                           <textarea id="opinionComentario" class="form-control" rows="4" placeholder="¿Qué te parece la atención?" required></textarea>
+                       </div>
+                       <button type="submit" class="btn btn-warning w-100 fw-bold">PUBLICAR COMENTARIO</button>
+                   </form>
+               </div>
+           </div>
+           <div class="col-md-7">
+               <h3 class="text-uppercase fw-bold text-white mb-4">Lo que dicen nuestros socios</h3>
+               <div id="contenedorOpiniones" class="row g-3" style="max-height: 500px; overflow-y: auto;"></div>
+           </div>
+       </div>
+   </section>
+   <script src="../js/validaciones.js"></script>
+</body>
+</html>

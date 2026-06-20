@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <title>Acceso - Gimnasio Los Hermanos</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+   <div class="container d-flex justify-content-center align-items-center vh-100">
+       <div class="card p-4 shadow-lg" style="width: 400px; ">
+       <div class="text-center mb-3">
+        <a href="index.html" class="btn-volver">
+            Volver al Inicio
+        </a>
+       </div>
+           <div class="text-center mb-4">
+               <button id="tabLoginBtn" class="btn btn-link text-warning fw-bold text-decoration-none me-3">INICIAR SESIÓN</button>
+               <button id="tabRegistroBtn" class="btn btn-link text-white-50 fw-bold text-decoration-none">REGISTRARSE</button>
+           </div>
+           <form id="formLogin">
+               <div class="mb-3"><label class="text-white-50">Correo Electrónico</label><input type="email" id="loginCorreo" class="form-control" required></div>
+               <div class="mb-3"><label class="text-white-50">Contraseña</label><input type="password" id="loginPass" class="form-control" required></div>
+               <button type="submit" class="btn btn-warning w-100 fw-bold mt-2">INGRESAR</button>
+           </form>
+           <form id="formRegistro" style="display: none;">
+               <div class="mb-3"><label class="text-white-50">Nombre Completo</label><input type="text" id="regNombre" class="form-control" required></div>
+               <div class="mb-3"><label class="text-white-50">Correo Electrónico</label><input type="email" id="regCorreo" class="form-control" required></div>
+               <div class="mb-3"><label class="text-white-50">Contraseña</label><input type="password" id="regPass" class="form-control" required></div>
+               <div class="mb-3">
+                   <label class="text-white-50">Seleccionar Plan</label>
+                   <select id="regPlan" class="form-control" style="background-color: #1a2a42; color:white; border: 1px solid #243b5e;">
+                       <option value="1">Plan Básico - Reto Inicial ($299)</option>
+                       <option value="2">Plan Premium - Resultados Pro ($499)</option>
+                   </select>
+               </div>
+               <button type="submit" class="btn btn-warning w-100 fw-bold mt-2">CREAR CUENTA</button>
+           </form>
+       </div>
+   </div>
+   <script src="../js/validaciones.js"></script>
+</body>
+</div>
+</html>
